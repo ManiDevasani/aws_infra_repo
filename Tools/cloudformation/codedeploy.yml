@@ -189,7 +189,7 @@ Resources:
      Properties: 
        LaunchConfigurationName: cloud-launch-config
        KeyName: amazon1
-       ImageId: ami-07fa7d40f4214ba5f
+       ImageId: ami-01fbdf311573de0f1
        IamInstanceProfile: !Ref iamprofile
        SecurityGroups: 
        - !Ref instanceSG
@@ -282,6 +282,7 @@ Resources:
       ElbInfoList: 
       - Name: !Ref LoadBalancer
     DeploymentConfigName: !Ref DeploymentConfig  
+
 
           
 
